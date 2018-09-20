@@ -1,0 +1,44 @@
+/* PHASE 3: Layout */
+.content-sidebar {
+  width: 200px;
+  min-height: 250px;
+  background-color: deeppink;
+  border: 1px solid black;
+
+}
+.content-main {
+  width: 700px;
+  min-height: 250px;
+  background-color: blue;
+  border: 1px solid black;
+  border-left: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: PapayaWhip;
+  border: 1px solid black;
+  border-top: 0;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer a {
+  padding: 12px;
+}
+
+.footer-text {
+  padding-left: 12px;
+}
